@@ -1,0 +1,20 @@
+ .NavBar__text{
+     display: flex;
+     justify-content: right;
+     text-align: right;
+     align-content: flex-end;
+     align-items: flex-end;
+ }
+
+ .NavBar__btn{
+     margin-right: 20px;
+ }
+
+ .NavBar__bg{
+    background-color:rgba(0, 182, 0, 0.774);
+ }
+
+ .NavBar__img{
+     width: 155px;
+     height: 80px;
+ }
