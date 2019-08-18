@@ -1,9 +1,6 @@
  .NavBar__text{
      display: flex;
-     justify-content: right;
-     text-align: right;
-     align-content: flex-end;
-     align-items: flex-end;
+     justify-content: center;
  }
 
  .NavBar__btn{

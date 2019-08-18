@@ -19,34 +19,21 @@ export class NavBar extends Component {
              
                 <div className="collapse navbar-collapse NavBar__text" id="nav">
 
-                <div className="container NavBar__text">
+                <div className="container">
                     
                 <ul className="navbar-nav NavBar__text">
              
              <li className="nav-item px-2" >
   
-                  <a className="nav-link text-light font-weight-bold" href="#">Introducción</a>
+                  <a className="nav-link text-light font-weight-bold" href="#introducción">Introducción</a>
   
              </li>
   
-             <li className="nav-item dropdown px-2" data-toggle="dropdown">
+             <li className="nav-item px-2" >
   
-                 <a className="nav-link text-light font-weight-bold dropdown-toggle" href="#">Explicación</a>
-  
-                 <div className="dropdown-menu NavBar__bg">
-  
-                     <a className="dropdown-item" href="#">Botella 1</a>
-  
-                     <a className="dropdown-item" href="#">Botella 2</a>
-  
-                     <a className="dropdown-item" href="#">Botella 3</a>
+                    <a className="nav-link text-light font-weight-bold" href="#explicacion">Expliación</a>
 
-                     <a className="dropdown-item" href="#">Código QR</a>
-  
-                 </div>
-  
-             </li>
-  
+            </li>
   
              <li className="nav-item">
   
@@ -54,18 +41,6 @@ export class NavBar extends Component {
   
              </li>
 
-             <li className="nav-item">
-  
-                 <a className="nav-link text-light font-weight-bold px-3" href="#">Iniciar Sesión</a>
-  
-             </li>
-             
-             <li className="nav-item">
-  
-                 <a className="nav-link text-light font-weight-bold px-3" href="#">Registro</a>
-  
-             </li>
-  
          </ul>
   
                 </div>

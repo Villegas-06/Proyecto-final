@@ -1,0 +1,14 @@
+
+
+.Explicacion_img{
+    display: flex;
+    width: 150px;
+}
+
+.Explicacion_txt{
+    color: black;
+}
+
+.Explicacion_obg{
+    width: 18rem;
+}
